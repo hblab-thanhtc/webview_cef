@@ -18,7 +18,7 @@ Flutter webview backed by CEF (Chromium Embedded Framework)
   s.dependency 'FlutterMacOS'
   s.vendored_frameworks = 'third/cef/Chromium\ Embedded\ Framework.framework'
   s.vendored_libraries = 'third/cef/libcef_dll_wrapper.a'
-  s.preserve_paths = ['third/cef/*']
+  s.preserve_paths = 'third/cef/*'
 
   $dir = File.dirname(__FILE__)
   $dir = $dir + "/third/cef/**"
